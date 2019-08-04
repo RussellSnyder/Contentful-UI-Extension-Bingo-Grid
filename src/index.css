@@ -1,0 +1,39 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.bingo-card-extension {
+    /*min-height: 400px;*/
+}
+
+.bingo-card-extension .bingo-board {
+    display: grid;
+    width: calc(100% - 2px);
+    grid-gap: 0px 0px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    border: 1px solid black;
+    /*justify-items: center;*/
+    align-items: center;
+    margin: auto;
+}
+
+.bingo-card-extension .bingo-space {
+    /*line-height: 6mm;*/
+    word-break: break-word;
+    padding: 4mm;
+    border: 1px solid black;
+    height: 20mm;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
